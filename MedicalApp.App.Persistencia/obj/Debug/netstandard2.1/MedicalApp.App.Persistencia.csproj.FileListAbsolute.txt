@@ -1,0 +1,12 @@
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.csprojAssemblyReference.cache
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.AssemblyInfoInputs.cache
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.AssemblyInfo.cs
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\bin\Debug\netstandard2.1\MedicalApp.App.Persistencia.deps.json
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\bin\Debug\netstandard2.1\MedicalApp.App.Persistencia.dll
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\bin\Debug\netstandard2.1\MedicalApp.App.Persistencia.pdb
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\bin\Debug\netstandard2.1\MedicalApp.App.Dominio.dll
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\bin\Debug\netstandard2.1\MedicalApp.App.Dominio.pdb
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.csproj.CopyComplete
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.dll
+C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.pdb
