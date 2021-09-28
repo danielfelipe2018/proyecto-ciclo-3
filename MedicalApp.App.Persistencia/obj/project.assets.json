@@ -7268,11 +7268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Persistencia\\MedicalApp.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Persistencia\\MedicalApp.App.Persistencia.csproj",
       "projectName": "MedicalApp.App.Persistencia",
-      "projectPath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Persistencia\\MedicalApp.App.Persistencia.csproj",
+      "projectPath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Persistencia\\MedicalApp.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\alekk\\.nuget\\packages\\",
-      "outputPath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Persistencia\\obj\\",
+      "outputPath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alekk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj": {
-              "projectPath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj"
+            "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj": {
+              "projectPath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj"
             }
           }
         }

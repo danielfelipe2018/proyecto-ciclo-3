@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6eoW+/E8dogx4199yWwSWS6R7JoK6Ir3g0Bu7ZtCYWZgsc9WvMpOTFWusJQXo068dDUoFUFNsvNcs2mAXyinQg==",
+  "dgSpecHash": "PSS/PomDmSv0Dzv4rRF5YFAGzF8d716b1Wg354Z47Mbs/09jsp3rokm5OuWfX4YLEvFUctSu4sMsi4NlzmPYbA==",
   "success": true,
-  "projectFilePath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Persistencia\\MedicalApp.App.Persistencia.csproj",
+  "projectFilePath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Persistencia\\MedicalApp.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alekk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alekk\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

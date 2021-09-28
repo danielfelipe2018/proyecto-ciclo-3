@@ -10,3 +10,15 @@ C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\bin\Debug\netstandard2.
 C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.csproj.CopyComplete
 C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.dll
 C:\MedicalApp\MedicalApp.App\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.pdb
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\bin\Debug\netstandard2.1\MedicalApp.App.Persistencia.deps.json
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\bin\Debug\netstandard2.1\MedicalApp.App.Persistencia.dll
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\bin\Debug\netstandard2.1\MedicalApp.App.Persistencia.pdb
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\bin\Debug\netstandard2.1\MedicalApp.App.Dominio.dll
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\bin\Debug\netstandard2.1\MedicalApp.App.Dominio.pdb
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.csprojAssemblyReference.cache
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.AssemblyInfoInputs.cache
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.AssemblyInfo.cs
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.csproj.CopyComplete
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.dll
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Persistencia\obj\Debug\netstandard2.1\MedicalApp.App.Persistencia.pdb

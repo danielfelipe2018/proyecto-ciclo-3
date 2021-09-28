@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Consola\\MedicalApp.App.Consola.csproj",
+      "projectUniqueName": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Consola\\MedicalApp.App.Consola.csproj",
       "projectName": "MedicalApp.App.Consola",
-      "projectPath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Consola\\MedicalApp.App.Consola.csproj",
+      "projectPath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Consola\\MedicalApp.App.Consola.csproj",
       "packagesPath": "C:\\Users\\alekk\\.nuget\\packages\\",
-      "outputPath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Consola\\obj\\",
+      "outputPath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alekk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5820,11 +5820,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj": {
-              "projectPath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj"
+            "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj": {
+              "projectPath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj"
             },
-            "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Persistencia\\MedicalApp.App.Persistencia.csproj": {
-              "projectPath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Persistencia\\MedicalApp.App.Persistencia.csproj"
+            "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Persistencia\\MedicalApp.App.Persistencia.csproj": {
+              "projectPath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Persistencia\\MedicalApp.App.Persistencia.csproj"
             }
           }
         }

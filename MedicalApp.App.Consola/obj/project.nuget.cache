@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lRCHPRtWfI5zLdK8eActYgHZ83ydT82E/P2T4FOEWRudVNFhmNOvKaVwoxIHNPPKB9tKssNGKpm5fqQomxZ+iA==",
+  "dgSpecHash": "TjW1mFuPT11mNnH23v26P2bm01bQPoMKkm81XXCYxJOCXEPTsXRSnBJthe4gzGThIAeyjI6X8dh9zBzCTsm4+A==",
   "success": true,
-  "projectFilePath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Consola\\MedicalApp.App.Consola.csproj",
+  "projectFilePath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Consola\\MedicalApp.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alekk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alekk\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

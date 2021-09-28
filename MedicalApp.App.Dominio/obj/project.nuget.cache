@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3wwJfjU3No9syv9dU5pfw29fIn3CnTL6uQBlrpQa83/dtRPzQRnrtGaSjURYOF/fAQ7OvI11ok24no/YYkxXCg==",
+  "dgSpecHash": "+E3/8LGHKc/wE80UcWjpxDBQ3diudM71cecA+farHMXWlDDby0zuhkZqyPYOoYcefVQI7RJ8GajYYFeag9S5UQ==",
   "success": true,
-  "projectFilePath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj",
+  "projectFilePath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
