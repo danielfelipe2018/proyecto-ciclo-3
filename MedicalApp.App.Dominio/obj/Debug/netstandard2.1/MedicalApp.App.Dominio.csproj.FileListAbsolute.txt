@@ -7,3 +7,12 @@ C:\MedicalApp\MedicalApp.App\MedicalApp.App.Dominio\obj\Debug\netstandard2.1\Med
 C:\MedicalApp\MedicalApp.App\MedicalApp.App.Dominio\obj\Debug\netstandard2.1\MedicalApp.App.Dominio.csproj.CoreCompileInputs.cache
 C:\MedicalApp\MedicalApp.App\MedicalApp.App.Dominio\obj\Debug\netstandard2.1\MedicalApp.App.Dominio.dll
 C:\MedicalApp\MedicalApp.App\MedicalApp.App.Dominio\obj\Debug\netstandard2.1\MedicalApp.App.Dominio.pdb
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Dominio\bin\Debug\netstandard2.1\MedicalApp.App.Dominio.deps.json
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Dominio\bin\Debug\netstandard2.1\MedicalApp.App.Dominio.dll
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Dominio\bin\Debug\netstandard2.1\MedicalApp.App.Dominio.pdb
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Dominio\obj\Debug\netstandard2.1\MedicalApp.App.Dominio.csprojAssemblyReference.cache
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Dominio\obj\Debug\netstandard2.1\MedicalApp.App.Dominio.AssemblyInfoInputs.cache
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Dominio\obj\Debug\netstandard2.1\MedicalApp.App.Dominio.AssemblyInfo.cs
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Dominio\obj\Debug\netstandard2.1\MedicalApp.App.Dominio.csproj.CoreCompileInputs.cache
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Dominio\obj\Debug\netstandard2.1\MedicalApp.App.Dominio.dll
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.Dominio\obj\Debug\netstandard2.1\MedicalApp.App.Dominio.pdb

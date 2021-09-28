@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj": {}
+    "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj": {
+    "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj",
+        "projectUniqueName": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj",
         "projectName": "MedicalApp.App.Dominio",
-        "projectPath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj",
+        "projectPath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Dominio\\MedicalApp.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\alekk\\.nuget\\packages\\",
-        "outputPath": "C:\\MedicalApp\\MedicalApp.App\\MedicalApp.App.Dominio\\obj\\",
+        "outputPath": "C:\\MedicalApp\\proyecto-ciclo-3\\MedicalApp.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alekk\\AppData\\Roaming\\NuGet\\NuGet.Config"
