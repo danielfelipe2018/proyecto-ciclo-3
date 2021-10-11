@@ -7,11 +7,12 @@ namespace MedicalApp.App.Persistencia
 {
     public class RepositorioAgendamiento : IRepositorioAgendamiento
     {
-        private readonly AppContext _appContext; //recomendable por seguridad
-        public RepositorioAgendamiento(AppContext appContext)
-        {
-            _appContext = appContext; //Necesitamos definir un contexto
-        }
+        //private readonly AppContext _appContext; //recomendable por seguridad
+        private readonly AppContext _appContext= new AppContext(); //recomendable por seguridad
+        //public RepositorioAgendamiento(AppContext appContext)
+        //{
+        //    _appContext = appContext; //Necesitamos definir un contexto
+        //}
         Agendamiento IRepositorioAgendamiento.AddAgendamiento(Agendamiento agendamiento)
         {
             var agendamientoAdicionado = _appContext.Agendamientos.Add(agendamiento);
