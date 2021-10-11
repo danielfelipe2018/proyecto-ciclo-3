@@ -96,3 +96,7 @@ C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.FrontEnd\obj\Debug\netcoreapp3.1\R
 C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Sedes\Details.cshtml.g.cs
 C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Sedes\Edit.cshtml.g.cs
 C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Sedes\AddCiudad.cshtml.g.cs
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Agendamientos\Index.cshtml.g.cs
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Agendamientos\Create.cshtml.g.cs
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Agendamientos\Details.cshtml.g.cs
+C:\MedicalApp\proyecto-ciclo-3\MedicalApp.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Agendamientos\Edit.cshtml.g.cs

@@ -29,6 +29,7 @@ namespace MedicalApp.App.FrontEnd
             services.AddSingleton<IRepositorioMedico,RepositorioMedico>();
             services.AddSingleton<IRepositorioCiudad,RepositorioCiudad>();
             services.AddSingleton<IRepositorioSede,RepositorioSede>();
+            services.AddSingleton<IRepositorioAgendamiento,RepositorioAgendamiento>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
