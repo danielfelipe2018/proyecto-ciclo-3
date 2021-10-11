@@ -1,0 +1,36 @@
+﻿@page
+@model MedicalApp.App.FrontEnd.Page.Medicos.DetailsModel
+@{
+}
+<h1>Detalle del médico</h1> 
+<table class="table table-dark">
+    <tr>
+        <th scope="col">Tipo Identificacion</th>
+        <td>@Model.medico.TipoIdentificacion</td>
+    </tr>
+    <tr>
+        <th scope="col">Identificacion</th>
+        <td>@Model.medico.Identificacion</td>
+    </tr>
+    <tr>
+        <th scope="col">Nombre</th>
+        <td>@Model.medico.Nombre</td>
+    </tr>
+    <tr>
+        <th scope="col">Apellidos</th>
+        <td>@Model.medico.Apellido</td>
+    </tr>
+    <tr>
+        <th scope="col">Genero</th>
+        <td>@Model.medico.Genero</td>
+    </tr>
+    <tr>
+        <th scope="col">Telefono</th>
+        <td>@Model.medico.Telefono</td>
+    </tr>
+    <tr>
+        <th scope="col">Correo</th>
+        <td>@Model.medico.Correo</td>
+    </tr>
+</table>
+<a asp-page="./Index" class="btn btn-primary" >Regresar</a>

@@ -1,0 +1,28 @@
+﻿@page
+@model MedicalApp.App.FrontEnd.Pages.Sedes.IndexModel
+@{
+}
+<a asp-page="./Create" class="btn btn-primary">Agregar nueva sede</a>
+<h1>Listado de Sedes</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Nombre de la Sede</th>
+            <th scope="col">Dirección</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody> 
+        @foreach (var sede in Model.sedes)
+        {
+            <tr>
+                <td>@sede.NombreSede</td>
+                <td>@sede.Direccion</td>
+                <td>
+                    <a asp-page="./Details" class="btn btn-primary" asp-route-id="@sede.Id">Ver Datos</a>
+                    <a asp-page="./Edit" class="btn btn-warning" asp-route-id="@sede.Id">Editar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -7,11 +7,11 @@ namespace MedicalApp.App.Persistencia
 {
     public class RepositorioCiudad : IRepositorioCiudad
     {
-        private readonly AppContext _appContext; //recomendable por seguridad
-        public RepositorioCiudad(AppContext appContext)
-        {
-            _appContext = appContext; //Necesitamos definir un contexto
-        }
+        private readonly AppContext _appContext= new AppContext(); //recomendable por seguridad
+    //    public RepositorioCiudad(AppContext appContext)
+    //    {
+    //        _appContext = appContext; //Necesitamos definir un contexto
+    //    }
         Ciudad IRepositorioCiudad.AddCiudad(Ciudad ciudad)
         {
             var ciudadAdicionado = _appContext.Ciudades.Add(ciudad);

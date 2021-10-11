@@ -1,0 +1,29 @@
+﻿@page
+@model MedicalApp.App.FrontEnd.Pages.Sedes.DetailsModel
+@{
+}
+<h1>Detalle de la sede</h1> 
+<table class="table table-dark">
+    <tr>
+        <th scope="col">Nombre de la sede</th>
+        <td>@Model.sede.NombreSede</td>
+    </tr>
+    <tr>
+        <th scope="col">Dirección</th>
+        <td>@Model.sede.Direccion</td>
+    </tr>
+    <tr>
+        <th scope="col">Ciudad</th>
+        <td>
+            @if (Model.sede.Ciudad==null)
+            {
+                <a asp-page="./AddCiudad" class="btn btn-primary" asp-route-id="@Model.sede.Id">Asociar ciudad</a>
+            }
+            else
+            {
+                @Model.sede.Ciudad.NombreCiudad
+            }
+        </td>
+    </tr>
+</table>
+<a asp-page="./Index" class="btn btn-primary" >Regresar</a>

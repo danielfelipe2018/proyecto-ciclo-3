@@ -1,0 +1,14 @@
+﻿@page
+@model MedicalApp.App.FrontEnd.Pages.Ciudades.CreateModel
+@{
+}
+<h1>Nueva Ciudad</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="ciudad.NombreCiudad"></label>
+        <input asp-for="ciudad.NombreCiudad" class="form-control">
+        <span asp-validation-for="ciudad.NombreCiudad" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Crear ciudad</button>
+</form>
+<a asp-page="./Index" class="btn btn-primary">Regresar</a>

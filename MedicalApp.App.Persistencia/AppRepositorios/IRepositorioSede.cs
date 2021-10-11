@@ -11,5 +11,6 @@ namespace MedicalApp.App.Persistencia
         Sede UpdateSede(Sede sede);
         void DeleteSede(int idSede);
         Sede GetSede(int idSede);
+        Ciudad AsignarCiudad(int idSede,int idCiudad);
     }
 }
