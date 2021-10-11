@@ -7,14 +7,15 @@ namespace MedicalApp.App.Consola
 {
     class Program
     {
-        private static IRepositorioPaciente _repoPaciente = new RepositorioPaciente(new Persistencia.AppContext());
-        private static IRepositorioMedico _repoMedico = new RepositorioMedico(new Persistencia.AppContext());
+        private static IRepositorioPaciente _repoPaciente = new RepositorioPaciente();
+        private static IRepositorioMedico _repoMedico = new RepositorioMedico();
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             //AddPaciente();
             //BuscarPaciente(1);
             //AddMedico();
+            MostrarPacientes();
         }
 
         private static void AddPaciente()
@@ -23,8 +24,8 @@ namespace MedicalApp.App.Consola
             {
                 TipoIdentificacion=TipoIdentificacion.Cedula,
                 Identificacion="1000111222",
-                Nombre = "Pepito",
-                Apellido = "Perez",
+                Nombre = "Fulanito",
+                Apellido = "De tal",
                 Genero = Genero.Masculino,
                 Telefono = "3152152014",
                 Correo = "correopaciente@correo.com",
@@ -39,7 +40,7 @@ namespace MedicalApp.App.Consola
             Console.WriteLine("Nombre: " + paciente.Nombre + " " + paciente.Apellido + "  Género: " + paciente.Genero);
         }
 
-        private static void mostrarPacientes()
+        private static void MostrarPacientes()
         {
             IEnumerable<Paciente> pacientes = _repoPaciente.GetAllPacientes();
             foreach (var paciente in pacientes)

@@ -1,0 +1,61 @@
+﻿@page
+@using MedicalApp.App.Dominio;
+@model MedicalApp.App.FrontEnd.Page.Pacientes.CreateModel
+@{
+}
+<h1>Nuevo Paciente</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="paciente.TipoIdentificacion"></label>
+        <select asp-for="paciente.TipoIdentificacion" asp-items="Html.GetEnumSelectList<TipoIdentificacion>()" class="form-control">
+        </select>
+        <span asp-validation-for="paciente.TipoIdentificacion" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.Identificacion"></label>
+        <input asp-for="paciente.Identificacion" class="form-control">
+        <span asp-validation-for="paciente.Identificacion" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.Nombre"></label>
+        <input asp-for="paciente.Nombre" class="form-control">
+        <span asp-validation-for="paciente.Nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.Apellido"></label>
+        <input asp-for="paciente.Apellido" class="form-control">
+        <span asp-validation-for="paciente.Apellido" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.Telefono"></label>
+        <input asp-for="paciente.Telefono" class="form-control">
+        <span asp-validation-for="paciente.Telefono" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.Correo"></label>
+        <input asp-for="paciente.Correo" class="form-control">
+        <span asp-validation-for="paciente.Correo" class="text-danger"></span>
+    </div>    
+    <div class="form-group">
+        <label asp-for="paciente.Genero"></label>
+        <select asp-for="paciente.Genero" asp-items="Html.GetEnumSelectList<Genero>()" class="form-control">
+        </select>
+        <span asp-validation-for="paciente.Genero" class="text-danger"></span>
+        
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.TipoPaciente"></label>
+        <select asp-for="paciente.TipoPaciente" asp-items="Html.GetEnumSelectList<TipoPaciente>()" class="form-control">
+        </select>
+        <span asp-validation-for="paciente.TipoPaciente" class="text-danger"></span>
+        
+    </div>
+    <div class="form-group">
+        <label asp-for="paciente.Convenio"></label>
+        <select asp-for="paciente.Convenio" asp-items="Html.GetEnumSelectList<Convenio>()" class="form-control">
+        </select>
+        <span asp-validation-for="paciente.Convenio" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Crear paciente</button>
+</form>
+<a asp-page="./Index" class="btn btn-primary">Regresar</a>

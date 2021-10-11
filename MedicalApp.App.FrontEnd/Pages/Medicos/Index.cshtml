@@ -1,0 +1,30 @@
+﻿@page
+@model MedicalApp.App.FrontEnd.Page.Medicos.IndexModel
+@{
+}
+<a asp-page="./Create" class="btn btn-primary">Crear nuevo medico</a>
+<h1>Listado de Médicos</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Especialidad</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody> 
+        @foreach (var medico in Model.medicos)
+        {
+            <tr>
+                <td>@medico.Nombre</td>
+                <td>@medico.Apellido</td>
+                <td>@medico.Especialidad</td>
+                <td>
+                    <a asp-page="./Details" class="btn btn-primary" asp-route-id="@medico.Id">Ver Datos</a>
+                    <a asp-page="./Edit" class="btn btn-warning" asp-route-id="@medico.Id">Editar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

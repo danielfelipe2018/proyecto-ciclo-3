@@ -7,11 +7,11 @@ namespace MedicalApp.App.Persistencia
 {
     public class RepositorioPaciente : IRepositorioPaciente
     {
-        private readonly AppContext _appContext; //recomendable por seguridad
-        public RepositorioPaciente(AppContext appContext)
-        {
-            _appContext = appContext; //Necesitamos definir un contexto
-        }
+        private readonly AppContext _appContext = new AppContext(); //recomendable por seguridad
+//        public RepositorioPaciente(AppContext appContext)
+//        {
+//            _appContext = appContext; //Necesitamos definir un contexto
+//        }
         Paciente IRepositorioPaciente.AddPaciente(Paciente paciente)
         {
             var pacienteAdicionado = _appContext.Pacientes.Add(paciente);
