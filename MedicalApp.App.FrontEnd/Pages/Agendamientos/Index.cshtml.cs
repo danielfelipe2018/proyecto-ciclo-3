@@ -21,6 +21,7 @@ namespace MedicalApp.App.FrontEnd.Pages.Agendamientos
         public void OnGet()
         {
             agendamientos = _repoAgendamiento.GetAllAgendamientos();
+            
         }
     }
 }

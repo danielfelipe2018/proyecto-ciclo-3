@@ -11,5 +11,7 @@ namespace MedicalApp.App.Persistencia
         Agendamiento UpdateAgendamiento(Agendamiento agendamiento);
         void DeleteAgendamiento(int idAgendamiento);
         Agendamiento GetAgendamiento(int idAgendamiento);
+        Paciente AsignarPaciente(int idAgendamiento,int idPaciente);
+        Medico AsignarMedico(int idAgendamiento,int idMedico);
     }
 }

@@ -1,4 +1,30 @@
 ﻿@page
+@using MedicalApp.App.Dominio;
 @model MedicalApp.App.FrontEnd.Pages.Agendamientos.DetailsModel
 @{
 }
+<h1>Detalle del agendamiento</h1> 
+<table class="table table-dark">
+    <tr>
+        <th scope="col">Código de la cita</th>
+        <td>@Model.agendamiento.Id</td>
+    </tr>
+    <tr>
+        <th scope="col">Tipo Cita</th>
+        <td>@Model.agendamiento.TipoCita</td>
+    </tr>
+    <tr>
+        <th scope="col">Especialidad</th>
+        <td>@Model.agendamiento.Especialidad</td>
+    </tr>
+    <tr>
+        <th scope="col">Paciente</th>
+        <td>@Model.agendamiento.Paciente.Nombre @Model.agendamiento.Paciente.Apellido</td>
+    </tr>
+        <tr>
+        <th scope="col">Médico</th>
+        <td>@Model.agendamiento.Medico.Nombre @Model.agendamiento.Medico.Apellido</td>
+    </tr>
+
+</table>
+<a asp-page="./Index" class="btn btn-primary" >Regresar</a>

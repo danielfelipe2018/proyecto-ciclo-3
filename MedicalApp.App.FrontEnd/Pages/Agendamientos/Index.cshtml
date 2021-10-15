@@ -4,3 +4,33 @@
 }
 <a asp-page="./Create" class="btn btn-primary">Realizar nuevo agendamiento</a>
 <h1>Listado de agendamientos</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Tipo Cita</th>
+            <th scope="col">Especialidad</th>
+            <th scope="col">Fecha Cita</th>
+            <th scope="col">Valor consulta</th>
+            <th scope="col">Paciente</th>
+        </tr>
+    </thead>
+    <tbody> 
+        @foreach (var agendamiento in Model.agendamientos)
+        {
+            <tr>
+                <td>@agendamiento.Id</td>
+                <td>@agendamiento.TipoCita</td>
+                <td>@agendamiento.Especialidad</td>
+                <td>@agendamiento.FechaCita</td>
+                <td>@agendamiento.Valor_Consulta</td>  
+                <td>@agendamiento.Paciente</td>       
+                <td>
+                    <a asp-page="./Details" class="btn btn-primary" asp-route-id="@agendamiento.Id">Ver Datos</a>
+                    <a asp-page="./Edit" class="btn btn-warning" asp-route-id="@agendamiento.Id">Editar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
