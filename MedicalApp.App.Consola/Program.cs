@@ -24,8 +24,8 @@ namespace MedicalApp.App.Consola
             {
                 TipoIdentificacion=TipoIdentificacion.Cedula,
                 Identificacion="1000111222",
-                Nombre = "Fulanito",
-                Apellido = "De tal",
+                Nombre = "Jose Fernando",
+                Apellido = "Ordoñez",
                 Genero = Genero.Masculino,
                 Telefono = "3152152014",
                 Correo = "correopaciente@correo.com",

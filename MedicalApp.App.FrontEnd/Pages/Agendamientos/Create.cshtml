@@ -14,6 +14,17 @@
     </div>-->
 
     <div class="form-group">
+        <label for="idPaciente">Paciente</label>
+        <select name="idPaciente" class="form-control">
+            @foreach (var paciente in Model.pacientes)
+            {
+                <option value="@paciente.Id">@paciente.Nombre @paciente.Apellido</option>
+            }
+        </select>    
+    </div>
+
+
+    <div class="form-group">
         <label asp-for="agendamiento.TipoCita"></label>
         <select asp-for="agendamiento.TipoCita" asp-items="Html.GetEnumSelectList<TipoCita>()" class="form-control">
         </select>
@@ -34,19 +45,25 @@
         <span asp-validation-for="agendamiento.Especialidad" class="text-danger"></span>
     </div> 
 
-    <!--<div class="form-group">
-        <label asp-for="agendamiento.Sede"></label>
-        <select asp-for="agendamiento.Sede" asp-items="Html.GetEnumSelectList<Sede>()" class="form-control">
-        </select>
-        <span asp-validation-for="agendamiento.Sede" class="text-danger"></span>
-    </div>-->
+    <div class="form-group">
+        <label for="idSede">Sede</label>
+        <select name="idSede" class="form-control">
+            @foreach (var sede in Model.sedes)
+            {
+                <option value="@sede.Id">@sede.NombreSede</option>
+            }
+        </select>    
+    </div>
 
-    <!--<div class="form-group">
-        <label asp-for="agendamiento.Medico"></label>
-        <select asp-for="agendamiento.Medico" asp-items="Html.GetEnumSelectList<Medico>()" class="form-control">
-        </select>
-        <span asp-validation-for="agendamiento.Medico" class="text-danger"></span>
-    </div>-->
+    <div class="form-group">
+        <label for="idMedico">Medico</label>
+        <select name="idMedico" class="form-control">
+            @foreach (var medico in Model.medicos)
+            {
+                <option value="@medico.Id">@medico.Nombre @medico.Apellido</option>
+            }
+        </select>    
+    </div>
 
     <div class="form-group">
         <label asp-for="agendamiento.FechaCita"></label>
