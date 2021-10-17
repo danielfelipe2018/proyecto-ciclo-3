@@ -11,5 +11,7 @@ namespace MedicalApp.App.Persistencia
         Medico UpdateMedico(Medico medico);
         void DeleteMedico(int idMedico);
         Medico GetMedico(int idMedico);
+        public IEnumerable<Medico> GetMedicosEspecialidad(int especialidad);
+        public IEnumerable<Medico> BuscarMedicos(string nombre);
     }
 }

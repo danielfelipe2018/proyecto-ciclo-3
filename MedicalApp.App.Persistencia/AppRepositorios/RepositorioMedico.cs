@@ -56,8 +56,21 @@ namespace MedicalApp.App.Persistencia
                 _appContext.SaveChanges();
             }
             return medicoEncontrado; //retorna el medico encontrado
-
         }
+
+        public IEnumerable<Medico> GetMedicosEspecialidad(int especialidad)
+        {
+            return _appContext.Medicos
+                    .Where (p=>p.Especialidad==(Especialidad)especialidad)
+                    .ToList();
+        }
+
+        public IEnumerable<Medico> BuscarMedicos(string nombre)
+        {
+            return _appContext.Medicos
+                    .Where (p=>p.Nombre.Contains(nombre));
+        }
+
     }
 
 
