@@ -1,7 +1,23 @@
 ﻿@page
+@using MedicalApp.App.Dominio
 @model MedicalApp.App.FrontEnd.Page.Medicos.IndexModel
 @{
 }
+
+<form method="get" class="form-inline">
+    <label class="my-1 mr-2" for="g2">Especialidad</label>
+    <select class="custom-select my-1 mr-2" id="g2" name="g2" asp-items="Html.GetEnumSelectList<Especialidad>()" asp-for="@Model.gActual2">
+        <option value="-1">Ver Todos</option>
+    </select>
+    <button type="submit" class="btn btn-primary my-1">Filtrar</button>
+</form>
+
+<form method="get" class="form-inline">
+    <label class="my-1 mr-2" for="b">Buscar</label>
+    <input type="text" class="form-control mb-2 mr-sm-2" id="b" name="b" asp-for="@Model.bActual">
+    <button type="submit" class="btn btn-secondary my-1">Buscar</button>
+</form>
+
 <a asp-page="./Create" class="btn btn-primary">Crear nuevo medico</a>
 <h1>Listado de Médicos</h1>
 <table class="table table-striped">

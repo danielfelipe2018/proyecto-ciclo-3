@@ -60,21 +60,18 @@ namespace MedicalApp.App.Persistencia
 
         }
         
-        //Medico IRepositorioPaciente.AsignarMedico(int idPaciente, int idMedico)
-        //{
-        //    var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
-        //    if (pacienteEncontrado != null)
-        //    {
-        //        var medicoEncontrado = _appContext.Medicos.FirstOrDefault(m => m.Id == idMedico);
-        //        if (medicoEncontrado != null)
-        //        {
-        //            pacienteEncontrado.Medico = medicoEncontrado;
-        //            _appContext.SaveChanges();
-        //        }
-        //        return medicoEncontrado;
-        //    }
-        //    return null;
-        //}
+        public IEnumerable<Paciente> GetPacientesGenero(int genero)
+        {
+            return _appContext.Pacientes
+                    .Where (p=>p.Genero==(Genero)genero)
+                    .ToList();
+        }
+
+        public IEnumerable<Paciente> BuscarPacientes(string nombre)
+        {
+            return _appContext.Pacientes
+                    .Where (p=>p.Nombre.Contains(nombre));
+        }
     }
 
 

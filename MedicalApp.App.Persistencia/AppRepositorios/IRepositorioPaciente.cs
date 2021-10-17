@@ -11,6 +11,8 @@ namespace MedicalApp.App.Persistencia
         Paciente UpdatePaciente(Paciente paciente);
         void DeletePaciente(int idPaciente);
         Paciente GetPaciente(int idPaciente);
+        public IEnumerable<Paciente> GetPacientesGenero(int genero);
+        public IEnumerable<Paciente> BuscarPacientes(string nombre);
     }
 }
 //Interfaz: Conjunto de métodos-encabezados de los métodos- No tienen implementación
